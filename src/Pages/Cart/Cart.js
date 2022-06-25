@@ -3,63 +3,40 @@ import EmptyCart from '../../Assets/empty-cart.svg';
 import CartProductList from '../../Components/Common/CartProductList';
 import * as S from './style';
 
-
+// adding products base on zeplin to check the style 
 const products = [
     {
         "id": 1,
-        "name": "Black T-shirt",
-        "price": 89,
-        "image": "https://elad-test-1.s3.amazonaws.com/tshirt.png",
-        "quantity": 5,
-        "catagories": [
-            "clothing",
-            "best-seller"
-        ]
-    },
-    {
-        "id": 2,
-        "name": "White Mouse Pad",
-        "price": 57,
-        "image": "https://elad-test-1.s3.amazonaws.com/white-pad.png",
-        "quantity": 10,
-        "catagories": [
-            "office",
-            "best-seller"
-        ]
-    },
-    {
-        "id": 3,
-        "name": "White Mouse Pad",
-        "price": 57,
-        "image": "https://elad-test-1.s3.amazonaws.com/white-pad.png",
-        "quantity": 10,
-        "catagories": [
-            "office",
-            "best-seller"
-        ]
-    },
-    {
+        "name":"Black T-shirt",
+        "price" : 89,
+        "image":"https://elad-test-1.s3.amazonaws.com/tshirt.png",
+        "quantity": 1,
+        "catagories" : ["clothing", "best-seller"]
+      },
+      {
         "id": 4,
-        "name": "White Mouse Pad",
-        "price": 57,
-        "image": "https://elad-test-1.s3.amazonaws.com/white-pad.png",
-        "quantity": 10,
-        "catagories": [
-            "office",
-            "best-seller"
-        ]
-    },
-    {
-        "id": 5,
-        "name": "White Mouse Pad",
-        "price": 57,
-        "image": "https://elad-test-1.s3.amazonaws.com/white-pad.png",
-        "quantity": 10,
-        "catagories": [
-            "office",
-            "best-seller"
-        ]
-    },
+    
+        "name":"White Hat",
+        "price" : 57,
+        "image":"https://elad-test-1.s3.amazonaws.com/white-hat.png",
+        "quantity": 1,
+        "catagories" : ["clothing"]
+      
+      },
+      {
+        "id": 6,
+    
+        "name":"Black Notebook",
+        "price" : 57,
+        "image":"https://elad-test-1.s3.amazonaws.com/note.png",
+        "quantity": 1,
+        "catagories" : ["office", "best-seller"]
+      
+      },
+      
+ 
+ 
+    
 ];
 
 const Cart = () => {
